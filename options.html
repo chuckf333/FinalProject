@@ -1,0 +1,30 @@
+<!-- Charles Franklin -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="CSSfile.css">
+    <title>Album Cataloger</title>
+    <script type="text/javascript" src="JSfile.js"></script>
+  </head>
+  <body lang="en-US">
+    <h1>What would you like to do?</h1>
+    <div class="opDiv">
+      Add new entry:<br>
+      <button class="button" onclick="submitButton(2);">
+        ADD
+      </button>
+      <br><br>
+      List your catalog by:
+      <select id="sortOption">
+        <option value="byArtist">Artist name</option>
+        <option value="byAlbum">Album name</option>
+        <option value="byYear">Year</option>
+      </select>
+      <br>
+      <button class="button" onclick="sortList(), submitButton(3);">
+        VIEW LIST
+      </button>
+    </div>
+  </body>
+</html>
