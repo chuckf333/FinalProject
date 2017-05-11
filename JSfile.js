@@ -192,6 +192,9 @@ function submitButton(option) {
       document.getElementById("formError").classList.add("shownMessage");
     }
   }
+  else if(option==6) {
+    location.href="index.html";
+  }
   else {
     console.log("Invalid");
   }
